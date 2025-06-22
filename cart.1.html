@@ -1,0 +1,59 @@
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+<body>
+   
+    <!-- Responsive Navbor -->
+    <nav class=" bg-white flex justify-between shadow-xl sticky top-0 items-center z-10  cursor-pointer">
+        <img class=" ml-14 w-14 h-14 " src="./image/Skinn_black.svg">
+        <div class=" flex gap-5 p-5 ">
+            <h3 class="hover:underline ">Men</h3>
+            <h3 class="hover:underline ">Women</h3>
+            <a href="./collection.html" class="hover:underline ">Collections</a>
+            <a href="./gift.html" class="hover:underline ">Gifting</a>
+            <h3 class="hover:underline ">Fastrack Fragrance</h3>
+            <h3 class="hover:underline ">Sale</h3>
+        </div>
+        <div class="gap-3 flex items-center mr-14">
+            <div>
+                <button id="menuBtn" class="text-2xl text-gray-600 focus:outline-none">
+
+                    <img class="  w-5 " src="./image/searc.svg" alt="">
+                </button>
+
+                <!-- Close Icon -->
+                <button id="closeBtn" class="text-2xl text-gray-600 focus:outline-none hidden">
+                    &times;
+                </button>
+
+
+                <!-- Search Bar (initially hidden) -->
+                <div id="searchBox" class="hidden p-4 bg-black shadow-md ">
+                    <input type="text" placeholder="Search.More Products"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
+
+                </div>
+            </div>
+
+           
+
+            <a href="./login.html"></a><img class=" h-5 w-5" src="./image/user.svg" alt=""></a>
+            <img src="./image/whislist-icon.svg" alt="">
+
+            <a href="./cart.1.html"><img class=" h-5 w-5" src="./image/cart-icon.svg" alt=""></a>
+
+
+        </div>
+    </nav>
+
+
+
+<div class="mt-10" style="margin-left: 500px;">
+    <div>
+        <img style="height: 400px; width: 400px;" src="./image/image (1).png" alt="">
+
+    </div>
+    <a href="./index.html"><button class="py-2 px-10 ml-20 bg-black text-white">Continue Shopping</button></a>
+
+</div>
+<script src="index.js"></script>
+</body>

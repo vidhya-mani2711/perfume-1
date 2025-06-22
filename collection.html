@@ -1,0 +1,449 @@
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+<body>
+     <!-- Responsive Navbor -->
+
+    <nav class=" bg-white flex justify-between shadow-xl sticky top-0 items-center z-10  cursor-pointer">
+        <img class=" ml-14 w-14 h-14 " src="./image/Skinn_black.svg">
+        <div class=" flex gap-5 p-5 ">
+
+            <div class="relative group w-fit mx-auto ">
+                <!-- Menu Item with underline on hover -->
+                <h3 class=" relative after:block after:h-0.5
+                     after:bg-black after:scale-x-0 group-hover:after:scale-x-100 
+                     after:transition-transform after:duration-300 after:origin-left">
+                    Men
+                </h3>
+
+                <!-- Dropdown -->
+                <div class="absolute bg-white boder z-10 opacity-0 scale-y-0 group-hover:opacity-100 
+                group-hover:scale-y-100 transition-all duration-200 origin-top p-10 ">
+                    <div class="flex justify-around gap-60 mt-3 " style="background-color: white;">
+
+                        <div>
+
+                            <ul class="space-y-2 ">
+                                <li class="font-serif text-black">AMALFI BLEU</li>
+                                <li class="font-serif text-black">CLASSICS</li>
+                                <li class="font-serif text-black">BODY MISTS</li>
+                                <li class="font-serif text-black">TALES</li>
+                            </ul>
+                        </div>
+                        <div>
+
+                            <ul class="space-y-2 text-gray-700">
+                                <li class="font-serif text-black">NOX</li>
+                                <li class="font-serif text-black">NOURA</li>
+                                <li class="font-serif text-black">ESCAPADE</li>
+                                <li class="font-serif text-black">24SEVEN</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="hover:underline ">Women</h3>
+            <a href="./collection.html" class="hover:underline ">Collections</a>
+            <a href="./gift.html" class="hover:underline ">Gifting</a>
+            <h3 class="hover:underline ">Fastrack Fragrance</h3>
+            <h3 class="hover:underline ">Sale</h3>
+
+        </div>
+
+        <div class="gap-5 flex items-center mr-14">
+            <div>
+                <button id="menuBtn" class="text-2xl text-gray-600 focus:outline-none">
+
+                    <img class=" h-5 w-5 mt-1 " src="./image/searc.svg" alt="">
+                </button>
+
+                <!-- Close Icon -->
+                <button id="closeBtn" class="text-2xl text-gray-600 focus:outline-none hidden">
+                    &times;
+                </button>
+
+                <!-- Search Bar (initially hidden) -->
+                <div id="searchBox" class="hidden p-4 bg-black shadow-md ">
+                    <input type="text" placeholder="Search.More Products"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
+
+                </div>
+            </div>
+
+
+            <a href="./login.html"><img class=" h-5 w-5" src="./image/user.svg" alt=""></a>
+
+            <img src="./image/whislist-icon.svg" alt="">
+
+            <a href="./cart.1.html"><img class=" h-5 w-5" src="./image/cart-icon.svg" alt=""></a>
+
+
+        </div>
+    </nav>
+     
+    <!-- topic section -->
+    <div class="flex gap-1 ml-16 mt-5 bg-gray-100 p-3 mr-16">
+        <a href="./index.html" class="text-sm text-gray-400">HOME |</a>
+
+        <a href="./gift.html" class="text-sm  text-gray-400">COLLECTIONS |</a>
+
+        <p class="text-sm  text-black">PRODUCTS</p>
+
+    </div>
+
+    <!-- cart  -->
+    <img class="mx-auto" src="./image/Cart-p.png" alt="">
+
+    <!-- fillter -->
+    <div class="flex justify-between mt-8">
+        <div class="flex gap-1 items-center ml-28 ">
+            <img class="h-4 w-4" src="./image/filter.webp" alt="">
+            <p>FILTER</p>
+        </div>
+        <div class="flex gap-1 mr-28 items-center">
+            <p>SORT BY:</p>
+
+
+            <select class="border border-gray-500 p-1 outline-none bg">
+                <option>Price Low or High</option>
+
+                <option>Best Sellers</option>
+                <option>New Arrivals</option>
+                <option>Popularity</option>
+                <option>Best Matches</option>
+                <option>Price Low to High</option>
+                <option>Price high to low</option>
+
+            </select>
+
+
+
+        </div>
+
+    </div>
+    <!-- image -->
+    <div class="z-0">
+        <div class=" flex  gap-5 mt-14 ">
+
+            <div class="inline hover:shadow-2xl transform hover:scale-110 duration-75">
+                <img class="h-80 w-80" src="./image/pro-1.jpg" alt="">
+                <div>
+                    <div class="text-center p-3">
+                        <h1 class="font-bold  text-xs">SKINN 247 Floral 100 ml Eau De Parfum</h1>
+                        <P>₹ 1,430</P>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="inline hover:shadow-2xl transform hover:scale-110 duration-75">
+                <img class="h-80 w-80" src="./image/pro-2.webp" alt="">
+                <div>
+                    <div class="text-center p-3">
+                        <h1 class="font-bold  text-xs">SKINN Nox Pour Femme Eau De Parfum</h1>
+                        <P>₹ 1,000</P>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="inline hover:shadow-2xl transform hover:scale-110 duration-75">
+                <img class="h-80 w-80" src="./image/pro-1.jpg" alt="">
+                <div>
+                    <div class="text-center p-3">
+                        <h1 class="font-bold  text-xs">SKINN Nox Pour Homme Eau De Parfum</h1>
+                        <P>₹ 2,000</P>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="inline hover:shadow-2xl transform hover:scale-110 duration-75">
+                <img class="h-80 w-80" src="./image/pro-2.webp" alt="">
+                <div>
+                    <div class="text-center p-3">
+                        <h1 class="font-bold  text-xs">SKINN 247 Floral 100 ml Eau De Parfum</h1>
+                        <P>₹ 1,430</P>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- image 1-->
+        <div class=" flex  gap-5 mt-14">
+
+            <div class="inline hover:shadow-2xl transform hover:scale-110 duration-75">
+                <img class="h-80 w-80" src="./image/pro-7.webp" alt="">
+                <div>
+                    <div class="text-center p-3">
+                        <h1 class="font-bold  text-xs">SKINN Noura Iris Eau De Parfum For her</h1>
+                        <P>₹ 2,430</P>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="inline hover:shadow-2xl transform hover:scale-110 duration-75">
+                <img class="h-80 w-80" src="./image/F-2.webp" alt="">
+                <div>
+                    <div class="text-center p-3">
+                        <h1 class="font-bold  text-xs">SKINN Noura Iris Eau De Parfum For her</h1>
+                        <P>₹ 1,430</P>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="inline hover:shadow-2xl transform hover:scale-110 duration-75">
+                <img class="h-80 w-80" src="./image/t-4.webp" alt="">
+                <div>
+                    <div class="text-center p-3">
+                        <h1 class="font-bold  text-xs">Skinn by Titan Celeste Beyond 100 ML Perfume for Women EDP</h1>
+                        <P>₹ 1,650</P>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="inline hover:shadow-2xl transform hover:scale-110 duration-75">
+                <img class="h-80 w-80 " src="./image/f-3.webp" alt="">
+                <div>
+                    <div class="text-center p-3">
+                        <h1 class="font-bold  text-xs">Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP</h1>
+                        <P>₹ 2,400</P>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- image 2-->
+        <div class="ml-14 flex  gap-5 mt-14">
+
+            <div class="inline hover:shadow-2xl transform hover:scale-110 duration-75">
+                <img class="h-80 w-80 mr-5" src="./image/F-2.webp" alt="">
+                <div>
+                    <div class="text-center p-3">
+                        <h1 class="font-bold  text-xs">Skinn by Titan Celeste 100 ML Perfume for Women EDP</h1>
+                        <P>₹ 1,130</P>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="inline hover:shadow-2xl transform hover:scale-110 duration-75">
+                <img class="h-80 w-80" src="./image/f-4.webp" alt="">
+                <div>
+                    <div class="text-center p-3">
+                        <h1 class="font-bold  text-xs">Skinn by Titan Nude 100 ML Perfume for Women EDP</h1>
+                        <P>₹ 1,930</P>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="h-36">
+                <img class="h-80 ml-10 rounded-sm" src="./image/ff.png" alt="" class="h-96 ml-10">
+            </div>
+
+        </div>
+
+        <!-- image-3 -->
+        <div class=" flex  gap-5 mt-14">
+
+            <div class="inline hover:shadow-2xl transform hover:scale-110 duration-75">
+                <img class="h-80 w-80" src="./image/t-3.webp" alt="">
+                <div>
+                    <div class="text-center p-3">
+                        <h1 class="font-bold  text-xs">SKINN Noura Iris Eau De Parfum For her</h1>
+                        <P>₹ 2,430 <del> ₹ 2,700 </del></P>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="inline hover:shadow-2xl transform hover:scale-110 duration-75">
+                <img class="h-80 w-80" src="./image/f-11.webp" alt="">
+                <div>
+                    <div class="text-center p-3">
+                        <h1 class="font-bold  text-xs">SKINN Noura Iris Eau De Parfum For her</h1>
+                        <P>₹ 1,430 <del>₹ 1000</del></P>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="inline hover:shadow-2xl transform hover:scale-110 duration-75">
+                <img class="h-80 w-80" src="./image/f-10.webp" alt="">
+                <div>
+                    <div class="text-center p-3">
+                        <h1 class="font-bold  text-xs">Skinn by Titan Celeste Beyond 100 ML Perfume for Women EDP</h1>
+                        <P>₹ 1,650 <del>₹ 2000</del></P>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="inline hover:shadow-2xl transform hover:scale-110 duration-75">
+                <img class="h-80 w-80" src="./image/f-9.webp" alt="">
+                <div>
+                    <div class="text-center p-3">
+                        <h1 class="font-bold  text-xs">Skinn by Titan Raw Instinct 100 ML Perfume for Men EDP</h1>
+                        <P>₹ 2,400 <del>₹ 2,200</del></P>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fooder -->
+    <div class="bg-black">
+        <div class="flex ">
+            <div>
+                <img src="./image/sk-1.svg" style="height:300px; width:300px;">
+            </div>
+
+            <!-- 1st vertical line 1 line -->
+            <div class="mt-12 pl-20">
+                <div class="w-0.5  h-40 bg-gray-400 mx-4 "></div>
+            </div>
+
+            <div class="pl-28 mt-10">
+                <div class="flex">
+                    <p class="text-white font-bold">Help </p>
+                    <p class="text-white font-bold">&Information</p>
+                </div>
+
+                <div class="text-gray-400 text-sm ">
+                    <p class="mt-3">About Us</p>
+                    <p class="mt-3">Help & Contact</p>
+                    <p class="mt-3">Delivery Information</p>
+                    <p class="mt-3">Track Order</p>
+                    <p class="mt-3">TataNeu Coins</p>
+                    <p class="mt-3">Cyber Security Policy</p>
+                </div>
+            </div>
+
+            <!--2nd vertical line 1 line -->
+            <div class="mt-12 pl-24">
+                <div class="w-0.5  h-40 bg-gray-400 mx-4 "></div>
+            </div>
+
+            <div class="text-white mt-10 pl-24">
+                <p class="font-bold">Sign Up To Receive Offers & News</p>
+
+                <input type="text" id="email" placeholder="Enter your email address"
+                    class="border border-white h-10 mt-5 w-60 bg-black text-white text-center"><br>
+                <p class="errorMsg hidden text-red-600 p-2">Please enter your Email id</p><br>
+                <button type="text" id="subscribe"
+                    class="border border-white  h-10 mt-5 w-60 bg-black text-white text-center font-thin">SUBSCRIBE</button>
+            </div>
+        </div>
+
+        <div class="text-white pl-20 text-xl">
+            <p>Follow and Connect Us</p>
+        </div>
+
+        <div class="flex gap-3 pl-10 mt-8 ml-12">
+
+            <div class="flex gap-8">
+                <!-- Facebook -->
+                <div class="relative group">
+                    <img src="./image/fb.svg" alt="Facebook"
+                        class="w-10 h-10 cursor-pointer transition-transform duration-300 group-hover:scale-110" />
+                    <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 rounded bg-black text-white text-xs
+                  opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300 ease-out
+                  pointer-events-none whitespace-nowrap z-10">
+                        Facebook
+                    </div>
+                </div>
+
+                <!-- Instagram -->
+                <div class="relative group">
+                    <img src="./image/Instagram icon.svg" alt="Instagram"
+                        class="w-10 h-10 cursor-pointer transition-transform duration-300 group-hover:scale-110" />
+                    <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 rounded bg-black text-white text-xs
+                  opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300 ease-out
+                  pointer-events-none whitespace-nowrap z-10">
+                        Instagram
+                    </div>
+                </div>
+
+                <!-- WhatsApp -->
+                <div class="relative group">
+                    <img src="./image/WhatsApp icon.svg" alt="WhatsApp"
+                        class="w-10 h-10 cursor-pointer transition-transform duration-300 group-hover:scale-110" />
+                    <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 rounded bg-black text-white text-xs
+                  opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300 ease-out
+                  pointer-events-none whitespace-nowrap z-10">
+                        WhatsApp
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="relative group">
+                    <img src="./image/Email icon.svg" alt="Email"
+                        class="w-10 h-10 cursor-pointer transition-transform duration-300 group-hover:scale-110" />
+                    <div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 rounded bg-black text-white text-xs
+                  opacity-0 scale-95 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300 ease-out
+                  pointer-events-none whitespace-nowrap z-10">
+                        Email
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- harizandal line 1 line -->
+        <div class="flex justify-center">
+            <hr class="w-3/4 bordert border-gray-500 my-4  pl-10 mt-10">
+        </div>
+
+
+        <div class="flex mt-5">
+            <div class="text-gray-500 pl-10">
+                <p>© 2025 Titan Company Limited. All Rights Reserved |
+                    Terms & Conditions
+                    |
+                    Privacy Policy</p>
+            </div>
+
+            <div class="flex gap-8 pl-60 ">
+                <img src="./image/visa-icon.svg" class="h-3">
+                <img src="./image/payPal-icon.svg" class="h-4">
+                <img src="./image/rupay-icon.svg" class="h-4">
+                <img src="./image/axisbank-icon.svg" class="h-5">
+                <img src="./image/maestro-icon.svg" class="h-5">
+            </div>
+        </div>
+    </div>
+
+
+     <script>
+    const menuBtn = document.getElementById("menuBtn");
+    const closeBtn = document.getElementById("closeBtn");
+    const searchBox = document.getElementById("searchBox");
+
+    menuBtn.addEventListener("click", () => {
+    searchBox.classList.remove("hidden");
+    menuBtn.classList.add("hidden");
+    closeBtn.classList.remove("hidden");
+    });
+
+
+    closeBtn.addEventListener("click", () => {
+    searchBox.classList.add("hidden");
+    menuBtn.classList.remove("hidden");
+    closeBtn.classList.add("hidden");
+    });
+
+    </script>
+
+
+</body>

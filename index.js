@@ -2,9 +2,9 @@
 
 
 const images = [
-    './image/image 2.webp',
-    './image/nav-1.webp',
-    './image/g.png'
+    './image 2.webp',
+    './nav-1.webp',
+    './g.png'
 ];
 
 let current = 0;
